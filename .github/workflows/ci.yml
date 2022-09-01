@@ -37,7 +37,7 @@ jobs:
         path: build/libs
 
     - name: Find target file
-      run: ls /home/runner/work/my-project/my-project/build/libs
+      run: mkdir /usr/app
 
     - name: Copy target file
       run: cp /home/runner/work/my-project/my-project/build/libs/*.jar /usr/app/
