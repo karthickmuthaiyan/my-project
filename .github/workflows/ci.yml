@@ -37,6 +37,6 @@ jobs:
         path: build/libs
 
     - name: Grant execute permission for gradlew
-      run: pwd
+      run: ls /home/runner/work/my-project/my-project
 
 
